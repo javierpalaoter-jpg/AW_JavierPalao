@@ -1,0 +1,83 @@
+*{
+    margin:0 auto;
+    padding: 0px;
+    text-align: center;
+      font-family: fantasy;
+        background-color:  rgb(73, 72, 72)
+}
+header{
+   height: 250px;
+    padding: 25px;
+  background-color:  rgb(73, 72, 72);
+   margin-top: 30px;
+}
+.logo{
+    width: 1500px;
+     margin-bottom: 50px;
+}
+img{
+    width: 1000px; height: 200px;
+}
+ul{
+    margin: 25px;
+}
+li{
+    display: inline;
+    font-size:30px ;
+    margin: 50px;
+}
+#marca3:visited{
+color: rgb(255, 166, 0) ;
+}
+.huber{
+text-decoration: none;    
+ color: rgb(206, 164, 116);
+}
+ footer{
+   height: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:  rgb(73, 72, 72);
+ }
+ .foot{
+  text-decoration: none;  
+  text-decoration: none;    
+ color: rgb(206, 164, 116);
+ }
+
+.foot:hover{
+color: rgb(255, 166, 0) ;
+}
+.caja1{
+  width: 2000px;
+  height: 1000px;
+ margin-top: 100px;
+padding-left: 300px;
+}
+.imagen1{
+width: 850px;
+height: 300px;
+    float: left;
+}
+.imagen2{
+  float: left;
+  width: 850px;
+  height: 300px;
+}
+.imagen3{
+  float: left;
+  width: 1700px;
+  height: 400px;
+  }
+  .imagen4{
+  float: left;
+  width: 850px;
+  height: 300px;
+  }
+  .imagen5{
+  float: left;
+  width: 850px;
+  height: 300px;
+  }
