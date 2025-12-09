@@ -1,0 +1,23 @@
+
+.contenedor{
+background-color: rgb(165, 163, 163);
+width: 80vw;
+height: 70vh;
+margin: auto;
+}
+.cuadrado1{
+background-color: rgb(211, 42, 211);
+width: 60vw;
+height: 30vh;
+}
+.cuadrado2{
+background-color: rgb(42, 211, 42);
+width: 20vw;
+height: 30vh;
+
+}
+.cuadrado3{
+background-color: rgb(218, 35, 35);
+width: 80vw;
+height: 10vh;
+}
