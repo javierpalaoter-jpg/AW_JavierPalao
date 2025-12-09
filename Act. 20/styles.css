@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+flex-direction: row;
+margin-top: 200px;
+justify-content: center;
+}
+.contenedor div{
+    width: 200px;
+    height: 200px;
+}
+.uno{
+background-color: rgb(136, 226, 1);
+text-align: center;
+padding-top: 50px;
+
+}
+.dos{
+background-color: rgb(127, 211, 1);
+text-align: center;
+padding-top: 50px;
+flex-grow: 2;
+}
+.tres{
+background-color: rgb(114, 190, 0);
+text-align: center;
+padding-top: 50px;
+flex-shrink: 15;
+}
+.cuatro{
+background-color: rgb(98, 163, 0);
+text-align: center;
+padding-top: 50px;
+flex-grow: 1;
+}
+.cinco{
+background-color: rgb(83, 138, 0);
+text-align: center;
+padding-top: 50px;
+}
+.seis{
+background-color: rgb(65, 109, 0);
+text-align: center;
+padding-top: 50px;
+}
+.contenedor2{
+ display: flex;
+flex-direction: row;
+margin-top: 50px;
+justify-content: center;
+}
+.contenedor2 a{
+padding: 15px;
+}
+a:link{
+color: greenyellow;
+}
+a:visited{
+color: blueviolet;
+}
+a:hover{
+color: red;
+}
