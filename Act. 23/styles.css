@@ -1,0 +1,35 @@
+*{
+ margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: rgb(192, 188, 188);
+}
+header{
+    color: rgb(26, 98, 180);
+    margin: 40px;
+}
+h2{
+    color: rgb(26, 98, 180);
+       margin: 10px;
+}
+.box {
+  margin: 20px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.imagen{
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+ filter: blur(5px)
+}
+.imagen:hover{
+ filter:none ;
+}
+
+footer{
+    margin: 40px;
+}
