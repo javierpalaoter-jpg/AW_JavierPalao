@@ -13,18 +13,10 @@ body{
     background-image:url(img/images.jpg) ;
     background-size: cover;
 }
-.caja1{
+.caja{
 color: aliceblue;
  font-size: 25px;
 }
 #margin{
  margin-bottom: 20px;
-}
-.caja2{
-color: aliceblue;
- font-size: 25px;
-}
-.caja3{
-color: aliceblue;
- font-size: 25px;
 }
