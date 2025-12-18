@@ -1,0 +1,74 @@
+*{
+    margin:0 auto;
+    padding: 0;
+    font-family: "Mountains of Christmas", serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+body{
+border:2px red dashed;   
+padding-top: 30px;
+padding-bottom: 30px;
+}
+h1{
+    color: red;
+    font-size: 60px;
+}
+h1:hover{
+    color: green;
+}
+h2{
+color: white;
+  font-size: 30px;
+  margin: 40px;
+}
+h2:hover{
+    color: black;
+}
+p{
+ font-weight: bold;
+}
+footer{
+border:2px green solid;
+}
+.texto{
+ padding-left: 300px;   
+ padding-right: 300px;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.hijo{
+    width: 400px;
+height: 200px;
+border: 2px red solid;
+margin: 8px;
+padding: 10px;
+}
+.imagen{
+    width: 250px; height: 180px;
+}
+.a{
+    background: linear-gradient(180deg,red,green,white);
+}
+.b{
+     background: linear-gradient(45deg,white, red 10% 90%,white );
+}
+.c{
+    background: linear-gradient(90deg,green,white);
+}
+.d{
+    background: linear-gradient(180deg,green 20%,red 30% 100% );
+}
+.e{
+    background: linear-gradient(45deg,green 33%,red 33% 66%,white 66% 100%);
+}
+.f{
+    background: linear-gradient(90deg,green,white,red,green,white,red, green );
+}
+footer:hover{
+    background: linear-gradient(180deg,green, red );
+}
