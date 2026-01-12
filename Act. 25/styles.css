@@ -1,0 +1,35 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-image:url(img/Fondo.webp);
+    background-size: cover;
+}
+
+header{
+margin-top: 300px;
+  font-family: "Story Script", sans-serif;
+font-size: 30px; 
+}
+
+a:hover{
+    color: chartreuse;
+}
+a{
+color: white;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+     font-family: "Roboto", sans-serif;
+}
+
+.cont{
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
