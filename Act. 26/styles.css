@@ -1,0 +1,55 @@
+*{
+    margin:0 auto;
+    padding: 0;
+    text-align: center;
+}
+.box{
+    width: 1200px;
+    height: 200px;
+    background-image: url(img/Fondo.jpg);
+    background-size: cover ;
+    margin-top: 60px;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+   font-family: "Ballet", cursive;
+     font-size: 50px;
+     padding-top: 70px;
+     flex-flow: row wrap;
+    display: flex;
+}
+.texto{
+    display: flex;
+    flex-flow: row wrap;
+    width: 900px;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+     font-family: 'Courier New', Courier, monospace;
+}
+.caja{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+margin: 40px;
+}
+.caja div {
+padding: 15px;
+border: 2px solid blue;
+}
+img{
+width: 300px;
+height: 300px;    
+}
+h4{
+      font-family: "Ballet", cursive;
+     font-size: 30px;
+     margin: 25px;
+}
+.caja div:hover{
+    border: yellow;
+    box-shadow: 10px 10px 10px yellow;
+    color: orange;
+}
