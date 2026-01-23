@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+  margin: 30px;
+font-family: new-astro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+nav{
+width: 95%;
+font-family: alight-slab, sans-serif;
+font-weight: 400;
+font-style: normal;
+background-color:#e94b3c;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-bottom: 30px;
+}
+a{
+ text-decoration: none;   
+ color: white;
+}
+main a img{
+    width: 100%; 
+}
+.texto{
+font-family: alight-slab, sans-serif;
+font-weight: 400px;
+font-style: normal;
+font-size: 28px;
+text-align: center;
+margin-top: 30px;
+}
+.box{
+    background-image:url(img/img/Fondo.webp);
+    background-size: cover;
+    width: 95%;
+    height: 400px;
+   display: flex;
+   margin: auto;
+   justify-content: space-around;
+   margin-top:30px ;
+   }
+   section div img{
+    height: 400px;
+   }
+   footer{
+    font-family: alight-slab, sans-serif;
+font-weight: 400px;
+font-style: normal;
+color:#e94b3c ;
+width: 70%;
+justify-content: space-around;
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 20px;
+   }
+ 
