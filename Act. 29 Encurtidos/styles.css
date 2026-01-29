@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    font-family:Superior-Title;
+}
+h1{
+    font-family:Miller-Banner;
+    margin: 10px;
+    color: white;
+}    
+h5{
+    
+        color: white;
+        margin-bottom: 20px;
+}
+main{
+    display: flex;
+}
+.matrimonio{
+    width: 200px;
+    height: 200px;
+    padding-top: 90px;
+}
+.matrimonio:hover{
+    background-image: url(img/gilda2.webp);
+    background-size: cover;
+}
+.vacio{
+    border: 5px solid red;
+    width: 200px;
+    height: 200px;
+}
+.sevillana{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.anchoa{
+    width: 200px;
+    height: 200px;
+}
+p{
+    display: flex;
+    border: 2px solid red;
+    background-color: white;
+      margin: 20px;
+}
+@media (orientation: landscape) {
+main{
+    flex-direction: row;
+}
+main div{
+    background-color: yellow;
+}
+section img{
+    display: none;
+}
+}
+@media (orientation: portrait) {
+    main{
+        flex-direction: column;
+    }
+main div{
+    background-color: olive;
+    margin-top: 30px;
+}
+p{
+    display: none;
+}
+
+}
