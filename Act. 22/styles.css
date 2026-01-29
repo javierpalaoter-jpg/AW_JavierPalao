@@ -1,0 +1,18 @@
+*{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    margin: 10px;
+    border:solid 1px black;
+    width: 90vw;
+    height: 100vh;
+}
+main div{
+    background-color:magenta;
+    margin: 15px;
+    padding: 5px;
+
+}
