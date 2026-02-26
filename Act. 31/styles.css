@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter-variable", sans-serif;
+}
+body{
+  background-color:#f7f4ef;
+}
+p{
+  font-size: 1.1vw ;
+}
+.medium{
+font-size: 1.6vw;  
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2vw;
+}
+.logo1{
+   width: 10vw;
+}
+.logo2{
+  width: 30vw;
+}
+header img{
+  width: 15vw;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  width: 85vw;
+  background-color: rgb(243, 243, 216);
+  margin: auto;
+  padding: 0;
+}
+nav ul li {
+  flex: 1;   /* Chat gpt */
+  text-align: center;
+  padding: 2vw 0;
+  position: relative;   /* Chat gpt */
+}
+
+nav ul li:not(:last-child)::after {
+  content: ""; /* Chat gpt */
+  position: absolute; /* Chat gpt */
+  right: 0;  /* Chat gpt */
+  top: 50%;  /* Chat gpt */
+  transform: translateY(-50%); /* Chat gpt */
+  height: 40%;   /* Chat gpt */
+  width: 1px;
+  background-color: black;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: block; /* Chat gpt */
+}
+nav ul li a:hover{
+ transform: scale( 1.2,1.2); 
+}
+
+/* fin nav -----------------------------------------------------*/
+.barra{
+   border-bottom:1px solid black ;
+   width: 80vw;
+   margin: 5vw auto;
+  
+  }
+main{
+    display: flex;
+margin-top: 5vw;
+margin-bottom: 5vw;
+flex-direction: column;
+justify-content: space-around;
+}
+main img{
+ width: 90vw;   
+ margin: auto;
+}
+main p{
+    width: 60vw;
+    text-align: center;
+margin: auto ;
+margin-top: 2vw;
+font-size: 1.5vw;
+}
+.foto{
+    width: 20vw;
+}
+
+section ul{
+  list-style: none;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+   
+}
+section ul li a{
+ text-decoration: none;
+ color: black;
+}
+section ul li a:hover{
+ color:sienna;
+}
+.p{
+  font-size: 1.5vw;
+  padding: 2vw;
+ text-align: center;
+}
+section ul li:hover{
+  transform: scale( 1.2,1.2);
+}
+section ul li img:hover{
+box-shadow: 5px grey;
+}
+img:hover{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+}
+/*  footer -----------------------------------------------------*/
+
+footer{
+ background-color: rgb(243, 243, 216);
+  height: 30vh;
+  margin-top: 2vw;
+}
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer ul li a p{
+  font-size: 1vw;
+  margin-top: 2vw;
+}
+.fa-brands{
+font-size: 2vw;
+margin-left:7vw ;
+}
+footer ul li{
+width: 15vw;
+}
+footer ul li p:hover{
+text-decoration: underline;
+transition: 0.3s;
+}
+footer p{
+  font-size: vw;
+}
+
+
+
+@media screen and (max-width:600px){
+
+section ul{
+ flex-direction: column;
+   align-items: center;
+}
+section ul li{
+  margin: 4vw;
+}
+.foto{
+  margin: 0 auto;
+  width: 70vw;
+}
+
+  .medium {
+    font-size: 3vw;
+  }
+
+  .p {
+    font-size:3vw;
+  }
+  main p{
+font-size: 2vw;
+  }
+    header {
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+  }
+
+  .logo1 {
+    width: 25vw;
+  }
+
+  .logo2 {
+    width: 60vw;
+  }
+
+  footer {
+    height: auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  footer ul {
+    align-items: center;
+  }
+
+  footer ul li {
+    width: 80vw;
+    text-align: center;
+    margin-bottom: 5vw;
+  }
+
+  footer ul li a p {
+    font-size: 2vw;
+  }
+
+}
