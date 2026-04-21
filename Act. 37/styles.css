@@ -1,0 +1,77 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "forager", sans-serif;
+}
+h1{
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+main{
+    width: 80vw;
+    border: 2px solid orange;
+    margin: auto;
+    margin-top: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+main:hover{
+    background-image: url(img/fondo\ \(1\).jpg);
+    background-size: contain;
+}
+main nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+a:link{
+    color: orange;
+}
+main section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2vw;
+}
+main section a img{
+    width: 15vw;
+}
+article{
+    width: 80vw;
+    margin: auto;
+    margin-top: 2vw;
+    padding: 2vw;
+    background-color: orange;
+}
+article p{
+    margin-top: 1vw;
+}
+footer{
+     width: 80vw;
+    margin: auto ;
+      border: 2px solid orange;
+     margin-top: 3vw;
+     margin-bottom: 2vw;
+}
+footer p{
+    text-align: center; 
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-color: black;
+    }
+    h1{
+        color: orange;
+   }
+    }
+    footer{
+        margin-bottom: 35vw;
+    }
+   footer p{
+    color: orange;
+   }
